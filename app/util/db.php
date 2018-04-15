@@ -37,6 +37,4 @@ function execute($sql, $params = []) {
     }
 
     $stmt->execute();
-
-    return $result;
 }
